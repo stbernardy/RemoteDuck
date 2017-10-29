@@ -15,3 +15,7 @@ This payload runs a python script that has a While loop that continually opens L
 - run "java -jar duckencoder.jar -i prank.txt -o /media/SDCardName/inject.bin"
 - Safely Remove the USB Drive
 - Ready to go!
+
+# DuckRAT
+
+This payload grabs private SSH keys and uploads it via SCP to a remote server. 
